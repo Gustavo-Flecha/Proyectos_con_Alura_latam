@@ -1,0 +1,78 @@
+body{
+    font-family: Verdana;
+    background-image: url('cajaFuerte.jpg');
+	width: 80%;
+    height: 80%;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+textarea{
+    width: 450px;
+	height: 170px;
+	padding: 12px 20px 0px 20px;
+	margin: 0 0 20px 0;
+	background:rgba(0,0,0,0.5);
+	border-radius: 5px;
+	box-shadow: 0px 1px 0px #f2f2f2;
+	font-family: sans-serif;
+	font-size: 16px;
+	color: #f2f2f2; 
+	text-shadow: 0px -1px 0px #334f71;
+}
+p,h2{
+	color:rgb(111, 250, 56);
+	text-shadow: 0px 2px 2px #a702b6, -2px -1px 0px #000000;
+	font-style: italic;
+	font-weight: 800;
+	font-family: 'Franklin Gothic Medium';
+}
+.area_2{
+	background-image:url("candado.png");
+	background-size: 40%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.boton:hover {
+	box-shadow: 0 5px 5px #313131, 0 9px 0 #393939, 0px 9px 10px rgba(0,0,0,0.4),
+   inset 0px 2px 15px rgba(255,255,255,0.4), inset 0 -2px 9px rgba(0,0,0,0.2);
+	color: black/*El color de las palabras del botón*/
+	}
+.boton:active {
+	box-shadow: 0 2px 0 #393939, 0px 4px 4px rgba(0,0,0,0.4), 
+	inset 0px 2px 5px rgba(0,0,0,0.2);
+	}
+.boton {
+	display:inline-flex;
+	color:rgb(111, 250, 56);
+	font-weight: bold;
+	padding: 12px 20px;
+	margin: 10px 10px;
+	font-size: 18px;
+	border-radius: 10px;
+	background-color: #666666;
+	box-shadow: 0 5px 5px #313131, 0 9px 0 #393939, 0px 9px 10px rgba(0,0,0,0.4),
+	inset 0px 2px 9px rgba(255,255,255,0.2),
+	inset 0 -2px 9px rgba(0,0,0,0.2);/*Auí se repite varias veces la sombra para que se note, pues con una sola no alcanza*/position: relative;
+	border-bottom: 1px solid rgba(255,255,255,0.2);
+	text-align: center;
+	text-shadow: 0px -1px 0px rgba(0,0,0,0.2);
+	cursor: pointer;
+}
+footer div{
+	position: relative;
+	bottom: 20px;
+	right: 25%;
+	text-align: center;
+}
+	
+h3{   
+	font-family: 'calibri';
+	font-style: italic;
+    color:#eeeeee;      
+   font-size:large;
+   text-shadow: 0px 4px 0px rgb(63, 0, 0), 
+   0 0 4px rgb(0, 0, 0),
+   -4px 0 4px rgb(0, 0, 0);
+   position:relative; 
+    top:130px;   left:450px;  
+}
